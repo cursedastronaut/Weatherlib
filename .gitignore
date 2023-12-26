@@ -1,0 +1,9 @@
+private
+
+main.cpp
+make.sh
+*.o
+*.out
+*.a
+*.json
+.vscode
