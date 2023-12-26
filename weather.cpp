@@ -1,7 +1,6 @@
-		#include <iostream>
 #include "weather.hpp"
 
-using std::string, std::cout, std::endl, std::cerr;
+using std::string;
 using json = nlohmann::json;
 
 CPPWeather::CPPWeather(const string &tokenUser) {
