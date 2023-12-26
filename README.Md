@@ -24,20 +24,20 @@ int main() {
 	CPPWeather api(my_key);
 	weather currentWeather = api.GetWeather();
 	
-	cout << currentWeather.temperatureCelsius		<< '\n'; //Temperature in Celsius
+	cout << currentWeather.temperatureCelsius	<< '\n'; //Temperature in Celsius
 	cout << currentWeather.temperatureFahrenheit	<< '\n'; //Temperature in Fahrenheit
-	cout << currentWeather.windMph					<< '\n'; //Wind in Miles per Hour
-	cout << currentWeather.windKph					<< '\n'; //Wind in Kilometers per Hours
-	cout << currentWeather.windDegree				<< '\n'; //Wind direction (in degree)
-	cout << currentWeather.windDirection			<< '\n'; //Wind direction (N, S, SW...)
-	cout << currentWeather.pressureMillibars		<< '\n'; //Pressure in millibars
-	cout << currentWeather.pressureInches			<< '\n'; //Pressure in inches
+	cout << currentWeather.windMph			<< '\n'; //Wind in Miles per Hour
+	cout << currentWeather.windKph			<< '\n'; //Wind in Kilometers per Hours
+	cout << currentWeather.windDegree		<< '\n'; //Wind direction (in degree)
+	cout << currentWeather.windDirection		<< '\n'; //Wind direction (N, S, SW...)
+	cout << currentWeather.pressureMillibars	<< '\n'; //Pressure in millibars
+	cout << currentWeather.pressureInches		<< '\n'; //Pressure in inches
 	cout << currentWeather.precipitationMillimeters	<< '\n'; //Precipitations in mm
-	cout << currentWeather.precipitationInches 		<< '\n'; //Precipitations in inches
-	cout << currentWeather.humidity					<< '\n'; //Humidity percentage
-	cout << currentWeather.cloudCoverage			<< '\n'; //Cloud coverage percentage
-	cout << currentWeather.isDay					<< '\n'; //Boolean, is it day or not
-	cout << currentWeather.uv						<< endl; //UV index (endl flushes)
+	cout << currentWeather.precipitationInches 	<< '\n'; //Precipitations in inches
+	cout << currentWeather.humidity			<< '\n'; //Humidity percentage
+	cout << currentWeather.cloudCoverage		<< '\n'; //Cloud coverage percentage
+	cout << currentWeather.isDay			<< '\n'; //Boolean, is it day or not
+	cout << currentWeather.uv			<< endl; //UV index (endl flushes)
 	return 0;
 }
 ```
