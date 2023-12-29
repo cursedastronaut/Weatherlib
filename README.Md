@@ -3,8 +3,10 @@ A simple C++ library to get user local weather.
 ## Requires
 - A [WeatherAPI key](https://www.weatherapi.com/).
 - C++17
-- Linux
 - [cURL library](https://github.com/curl/curl)
+
+It should not be operating-system dependant.
+
 ## How to compile ?
 Execute the following:
 ```sh
